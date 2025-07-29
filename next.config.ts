@@ -6,9 +6,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === "production" ? "/sebaxe07.github.io" : "",
-  assetPrefix:
-    process.env.NODE_ENV === "production" ? "/sebaxe07.github.io/" : "",
+  // No basePath or assetPrefix needed for username.github.io repos
 };
 
 export default nextConfig;
