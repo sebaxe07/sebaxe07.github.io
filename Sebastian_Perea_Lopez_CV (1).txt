@@ -1,0 +1,346 @@
+Sebastian Enrique Perea Lopez
+ Home : Calle 93 #71-117, Paseo del Parque, apto 413, Torre 4, 080001, Barranquilla,
+Colombia
+
+ Email: sebaxe09@gmail.com  Phone: (+57) 3013416669
+ WhatsApp Messenger: +39 3444622393
+
+ LinkedIn: www.linkedin.com/in/sebastian-perea-lopez-7a4005206
+ Behance: https://www.behance.net/sebastianperea4  Github: sebaxe07
+Gender: Male Date of birth: 28/04/2001 Place of birth: Cali, Colombia Nationalit
+y: Colombian
+
+ABOUT ME
+I am a passionate software engineer and creative thinker with a Master's Degree in
+Computer Science from Politecnico di Milano and an Engineering Degree from
+Universidad del Norte. With a strong foundation in software development, I have
+experience building innovative solutions—from web applications to interactive
+simulations and robotics systems. My work in robotics includes projects focused on
+sensing, localization, and real-time interaction, combining technical depth with creative
+problem-solving.
+Explore my portfolio on Behance to see my creative work, and check out my code on GitH
+ub to learn about my technical projects.
+
+WORK EXPERIENCE
+
+Panaderia Nueva York
+City: Barranquilla | Country: Colombia
+
+[ 01/06/2021 – 31/07/2021 ]
+
+Processing Time Analysis
+Creating an analysis of the time that it takes for a product to be manufactured, packaged,
+and stored from the raw material to the final product. Use of Excel and MS Office
+products.
+
+Universidad del Norte
+City: Barranquilla | Country: Colombia
+[ 01/02/2021 – 01/06/2023 ]
+
+Students assistant
+Teaching and academic support to university students with a focus on all those students
+who are taking the subject of Algorithms and programming.
+
+Teleperformance
+City: Barranquilla | Country: Colombia
+[ 19/08/2021 – 11/08/2023 ]
+
+Live chat agent
+Customer and staff management.
+Fast and effective troubleshooting.
+High management of computing devices and specialized platforms.
+City: Milano | Country: Italy
+
+[ 01/02/2024 – Current ]
+
+Freelancer
+Developed custom web and software solutions tailored to client needs, using modern
+front-end and back-end technologies.
+
+Communicated with clients to define requirements, provide updates, and ensure timely
+project delivery.
+Integrated APIs, databases, and cloud services to build scalable and maintainable
+systems.
+Delivered clean, well-documented code and provided ongoing technical support when
+needed.
+
+EDUCATION AND TRAIN‐
+ING
+[ 01/06/2019 ]
+
+Bachelor
+Colegio La Medalla Milagrosa
+
+https://www.colmemi.edu.co/wp/
+
+Address: Cl. 86 #64-75, 080001, Barranquilla, Colombia |
+[ 01/01/2018 – 01/06/2019 ]
+
+Technician in Development of information systems and mobile devices
+CEAS
+
+https://ceas.edu.co/
+
+Address: Cra. 57 #72- 143, 080001, Barranquilla, Colombia |
+[ 01/09/2019 – Current ]
+
+Systems Engineer
+Universidad del Norte
+
+https://www.uninorte.edu.co/
+
+Address: Área metropolitana de Barranquilla, Kilómetro 5 Vía, Barranquilla, Colombia |
+
+Laurea Magistrale - Computer Science and Engineering - Ingegneria
+[ 05/09/2023 – Current ]
+
+Informatica
+Politecnico di Milano
+
+https://www.polimi.it/
+
+City: Milano | Country: Italy |
+
+LANGUAGE SKILLS
+Mother tongue(s): Spanish
+Other language(s):
+English
+LISTENING C1 READING C1 WRITING C1
+SPOKEN PRODUCTION C1 SPOKEN INTERACTION C1
+
+Italian
+LISTENING B1 READING B1 WRITING B1
+SPOKEN PRODUCTION B1 SPOKEN INTERACTION B1
+Levels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Proficient user
+
+SKILLS
+
+Office
+Microsoft Office package: Microsoft Word, Excel, PowerPoint, Access | Google Suite (Doc,
+Slides, Form, Sheet, Drive)
+Programming
+Javascript(Nodejs, ExpressJs) | JSON | Github | Web Development | Python | Object
+-Oriented Programming | CSS | HTML5 | SQL | MySQL | JavaScript | Back-end
+(Flask, Django) | Azure and AWS | Python, Django, Django Restful api | Java
+OS
+Windows | Linux | MacOS | Android | iOS
+Social Media
+Instagram | Facebook | TikTok | Zoom | Teams | Youtube
+
+DIGITAL SKILLS TEST RES‐
+ULTS
+
+A
+
+Information and data literacy
+
+ADVANCED
+
+Level 6 / 6
+
+B
+
+Communication and collaboration
+
+ADVANCED
+
+Level 6 / 6
+
+C
+
+Digital content creation
+
+ADVANCED
+
+Level 6 / 6
+
+D
+
+Safety
+
+ADVANCED
+
+Level 6 / 6
+
+E
+
+Problem solving
+
+ADVANCED
+
+Level 6 / 6
+
+Results from a self-assessment based on The Digital Competence Framework 2.1
+
+HONOURS AND AWARDS
+[ 2019 ]
+
+Promigas Talent Scholarship Awarding institution: Promigas - Uninorte
+Scholarship for 100% of the system engineering degree.
+Honor Roll Awarding institution: Universidad Del Norte
+Outstanding student of the semester and career.
+(2019-03) (2020-01) (2020-03) (2021-01) (2021-03) (2022-01) (2021-03)
+Best United Nations Model Speaker Awarding institution: Colegio La Medalla
+Milagrosa
+2017 - 2018 - 2019
+
+[ 2018 ]
+
+Best Science Fair Project Awarding institution: Colegio La Medalla Milagrosa
+
+HOBBIES AND INTERESTS
+Mobile development.
+Web development.
+Creation and development of video games.
+Artificial Intelligence.
+Augmented Reality.
+Virtual Reality.
+
+PROJECTS
+[ 01/09/2023 – 01/02/2024 ]
+
+Immaginario
+Immaginario is a speech therapy app designed for neurodivergent children, reimagined
+to streamline both remote and in-person therapy management. Developed in close
+collaboration with therapists, the redesign emphasizes simplicity in organizing therapy
+agendas and dynamically tailoring content to each child’s progress. The app fosters a
+user-friendly experience while integrating advanced technologies, empowering therapists
+to manage sessions remotely and adapt resources in real-time. Immaginario also
+encourages caregiver involvement, creating opportunities for meaningful interaction with
+children. This innovative solution transforms speech therapy, offering a personalized,
+efficient, and inclusive approach for therapists, caregivers, and neurodivergent kids alike.
+
+Links: https://www.behance.net/gallery/205215965/Immaginario | https://shorturl.at/
+dsvlv
+[ 01/10/2023 – 14/02/2024 ]
+
+CodeKataBattle
+CodeKataBattle is a web application designed to simplify the lives of modern educators
+by managing coding tournaments and battles for students. The platform fosters skill
+development through engaging, interactive challenges, ensuring a fun and immersive
+learning experience. With a minimalist and user-friendly design, it emphasizes intuitive
+navigation and clear organization of UI components. Role-based access control enhances
+usability and security, giving users tailored access to relevant features. CodeKataBattle is
+more than a coding platform—it’s a space where students collaborate, compete, and
+grow, with fair opportunities for everyone to showcase their abilities.
+Links: https://www.behance.net/gallery/205259021/CodeKataBattle | https://shorturl.at/
+ZOs7p | https://shorturl.at/845Jo | https://shorturl.at/roVkb
+
+[ 01/03/2024 – 01/08/2024 ]
+
+DemHouse
+DemHouse is a platform designed to connect individuals seeking shared housing or
+rental properties, featuring a user-friendly matching system. It leverages location-based
+services and secure communication to simplify the search for ideal housing. Housers list
+available properties, while Cohousers find housing opportunities based on preferences
+like budget and location. By facilitating seamless communication between both parties,
+DemHouse provides an efficient, reliable solution for housing needs.
+Link: https://www.behance.net/gallery/205260507/DemHouse
+
+[ 01/08/2024 – 30/09/2024 ]
+
+CrediYork
+CrediYork is a financial tracking software tailored for Panadería Nueva York, designed
+to manage employee credits and funds with ease. Featuring an intuitive interface, the
+platform empowers administrators to oversee finances and lending activities efficiently.
+By streamlining accounting processes, CrediYork enhances accuracy and ensures
+seamless financial management for the organization.
+Link: https://www.behance.net/gallery/213059393/CrediYork
+
+[ 10/01/2024 – 18/01/2025 ]
+
+Believes
+Believes is a Unity-developed narrative game where players control Eve, a soul navigating
+a robot factory to uncover the truth behind humanity's eradication of robotic souls
+through the Qbot program. By possessing various robots, Eve battles factory defenses,
+exploring themes of identity, autonomy, and the conflict between emotion and control.
+Link: https://polimi-game-collective.itch.io/believes
+
+[ 01/10/2024 – 17/01/2025 ]
+
+SimCon
+SimCon is a modular Unity-based construction site simulation designed as a digital twin
+to emulate machinery operations and interactions. The project integrates real-time
+sensor data and a custom API for dynamic, data-driven simulation experiences. Using C#
+scripts and the Behavior Bricks asset, it delivers realistic behavior modeling for tasks like
+construction, demolition, and transportation. SimCon offers flexibility for various site
+layouts, aiding construction managers in workflow optimization, operational timeline
+estimation, and decision-making through real-time monitoring and predictive analysis.
+Link: https://www.fer.unizg.hr/rasip/dsd/constructionsite/project_description
+
+[ 01/01/2025 – 28/02/2025 ]
+
+Mapuka
+Mapuka is a mobile application designed for users who love exploring new locations and
+preserving memories of their journeys. Whether discovering a new city, hiking through
+nature, or tracking daily movements, Mapuka provides an interactive way to visualize
+exploration progress.
+At the core of Mapuka is the Fog of War mechanic, where unexplored areas of the map
+remain hidden until the user visits them. This encourages users to explore new areas
+while also serving as a digital travel journal.
+Links: https://github.com/sebaxe07/Mapuka | https://www.behance.net/gallery/
+231368723/Mapuka
+
+[ 16/04/2025 – 10/05/2025 ]
+
+Lotus Haven
+Lotus Haven is an accessible Vue.js-based website for a yoga studio, designed to connect
+users with yoga classes, teachers, and wellness resources.
+This project is built using Nuxt 3 and Vue.js, focusing on creating a beautiful and
+accessible yoga studio website. The main features include:
+• Class schedule and activity browsing
+• Teacher profiles and information
+• Searchable content
+• Responsive design for all devices
+• Strong focus on accessibility (WCAG compliance)
+Links: https://www.behance.net/gallery/231369895/Lotus-Haven | https://github.com/
+sebaxe07/LotusHaven | https://lotus-haven.vercel.app/
+
+[ 18/02/2025 – 10/06/2025 ]
+
+BovisaBaby Localization Module
+A modular robot control system with LIDAR-based obstacle detection, human tracking,
+autonomous charging, and motor control capabilities. The system provides a web-based
+visualization interface for real-time monitoring.
+Features
+• LIDAR-based obstacle detection and tracking
+• Camera-based human tracking with pose detection
+• Robot movement control via Arduino interface
+• April Tag detection for autonomous charging
+• GPS geofencing capabilities
+• Real-time visualization through web interface
+• ZMQ-based inter-process communication
+• Support for both hardware and simulation modes
+Links: https://github.com/sebaxe07/BovisaBabyLMmodule | https://vimeo.com/
+1105574616?share=copy
+
+[ 01/02/2025 – Current ]
+
+Tino Robot
+A comprehensive control system for Tino, a multi-component robot featuring a mobile
+base, articulated head, and leg mechanism.
+Tino Robot has evolved from a Raspberry Pi-controlled system to a modern ROS2-based
+implementation:
+Current Implementation
+
+The current version of Tino Robot is built with a modular architecture running on a Jetson
+Orin Nano:
+• Base: Differential drive system with 2 wheels and a caster wheel
+• Head: Three-servo platform providing pan and tilt motion
+• Leg: Single-actuator mechanism
+• Vision & Audio: Integrated camera and audio for SLAM and human interaction
+The system provides real-time control via gamepad and includes advanced features like
+SLAM, human pose detection, and audio communication.
+Link: https://github.com/sebaxe07/Tino-Robot
+
+MANAGEMENT AND
+LEADERSHIP SKILLS
+Teamwork
+Troubleshooting
+Leadership
+Conflicts management
+Impeccable organization and planning of classes
+High capacity to adapt to pressure environments
+Proven ability to manage times and objectives
+
+

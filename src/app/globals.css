@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -10,17 +10,118 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Animation keyframes */
+  --animation-blob: blob 7s infinite;
+  --animation-float: float 6s ease-in-out infinite;
+  --animation-glow: glow 2s ease-in-out infinite alternate;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Custom animations */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+    border-radius: 70% 30% 50% 50% / 30% 60% 40% 70%;
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+    border-radius: 50% 50% 30% 70% / 50% 40% 60% 30%;
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
   }
 }
 
+@keyframes float {
+  0%,
+  100% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 20px -10px #3b82f6;
+  }
+  to {
+    box-shadow: 0 0 40px -10px #8b5cf6;
+  }
+}
+
+/* Utility classes */
+.blob-base {
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  transition: border-radius 0.3s ease;
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+.animation-delay-0 {
+  animation-delay: 0s;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+.animation-delay-6000 {
+  animation-delay: 6s;
+}
+
+/* Line clamp utility */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 body {
-  background: var(--background);
+  background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
 }
