@@ -3,12 +3,16 @@ import { AboutSection } from "@/components/AboutSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { Navigation } from "@/components/Navigation";
 import { DynamicFloatingBlobs } from "@/components/ui/LiquidBlob";
+import { MouseGradient } from "@/components/MouseGradient";
 
 export default function Home() {
   return (
     <div className="min-h-screen relative">
       {/* Navigation */}
       <Navigation />
+
+      {/* Mouse-following gradient background */}
+      <MouseGradient />
 
       {/* Dynamic animated background blobs */}
       <DynamicFloatingBlobs />
