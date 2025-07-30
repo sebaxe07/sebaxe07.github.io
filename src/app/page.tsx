@@ -4,6 +4,7 @@ import { ProjectsSection } from "@/components/ProjectsSection";
 import { Navigation } from "@/components/Navigation";
 import { DynamicFloatingBlobs } from "@/components/ui/LiquidBlob";
 import { MouseGradient } from "@/components/MouseGradient";
+import { ScrollIndicator } from "@/components/ScrollIndicator";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
 
       {/* Dynamic animated background blobs */}
       <DynamicFloatingBlobs />
+
+      {/* Custom scroll indicator */}
+      <ScrollIndicator />
 
       {/* Main content */}
       <main className="relative z-10">
