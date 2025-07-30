@@ -31,7 +31,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="relative z-10 py-8 px-4 border-t border-white/10">
+      <footer className="relative z-0 py-8 px-4 border-t border-white/10">
         <div className="max-w-6xl mx-auto text-center text-gray-400">
           <p className="mb-2">
             © 2025 Sebaxe07. Built with Next.js, TypeScript, and Tailwind CSS.
