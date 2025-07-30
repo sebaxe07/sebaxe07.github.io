@@ -76,7 +76,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 {project.config.status || "completed"}
               </span>
               {project.config.category && (
-                <span className="px-2 py-1 text-xs bg-white/10 text-gray-300 rounded-full">
+                <span className={`px-2 py-1 text-xs rounded-full border ${GitHubService.getCategoryColorClasses(project.config.category)}`}>
                   {project.config.category}
                 </span>
               )}

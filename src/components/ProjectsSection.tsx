@@ -11,7 +11,7 @@ export const ProjectsSection: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [filter, setFilter] = useState<
-    "all" | "featured" | "web" | "mobile" | "api" | "tool"
+    "all" | "featured" | "web" | "mobile" | "desktop" | "robotics" | "unity" | "other"
   >("all");
 
   useEffect(() => {
@@ -42,8 +42,10 @@ export const ProjectsSection: React.FC = () => {
     { key: "featured", label: "Featured" },
     { key: "web", label: "Web" },
     { key: "mobile", label: "Mobile" },
-    { key: "api", label: "API" },
-    { key: "tool", label: "Tools" },
+    { key: "desktop", label: "Desktop" },
+    { key: "robotics", label: "Robotics" },
+    { key: "unity", label: "Unity" },
+    { key: "other", label: "Other" },
   ] as const;
 
   if (loading) {

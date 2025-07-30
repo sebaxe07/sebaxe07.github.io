@@ -26,7 +26,7 @@ export interface ProjectConfig {
   customDescription?: string;
   liveUrl?: string;
   technologies?: string[];
-  category?: "web" | "mobile" | "desktop" | "api" | "tool" | "other";
+  category?: "web" | "mobile" | "desktop" | "robotics" | "unity" | "other";
   status?: "completed" | "in-progress" | "archived";
 }
 
