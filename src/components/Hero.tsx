@@ -22,7 +22,7 @@ export const Hero: React.FC = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 relative">
+    <section className="min-h-screen flex items-center justify-center px-4 pt-26 md:pt-4 relative">
       <motion.div
         className="max-w-4xl mx-auto text-center z-10"
         initial={{ opacity: 0, y: 20 }}
