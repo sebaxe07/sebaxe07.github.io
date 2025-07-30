@@ -7,9 +7,13 @@ import { GlassCard } from "./ui/GlassCard";
 
 interface ProjectCardProps {
   project: PortfolioProject;
+  onProjectClick: (project: PortfolioProject) => void;
 }
 
-export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
+export const ProjectCard: React.FC<ProjectCardProps> = ({
+  project,
+  onProjectClick,
+}) => {
   const languageColor = GitHubService.getLanguageColor(project.language);
   const displayDescription =
     project.config.customDescription ||
@@ -17,7 +21,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     "No description available";
 
   const handleCardClick = () => {
-    window.open(project.config.liveUrl || project.html_url, "_blank");
+    onProjectClick(project);
   };
 
   const handleGitHubClick = (e: React.MouseEvent) => {
@@ -76,7 +80,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 {project.config.status || "completed"}
               </span>
               {project.config.category && (
-                <span className={`px-2 py-1 text-xs rounded-full border ${GitHubService.getCategoryColorClasses(project.config.category)}`}>
+                <span
+                  className={`px-2 py-1 text-xs rounded-full border ${GitHubService.getCategoryColorClasses(
+                    project.config.category
+                  )}`}
+                >
                   {project.config.category}
                 </span>
               )}

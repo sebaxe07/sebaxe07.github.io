@@ -28,6 +28,28 @@ export interface ProjectConfig {
   technologies?: string[];
   category?: "web" | "mobile" | "desktop" | "robotics" | "unity" | "other";
   status?: "completed" | "in-progress" | "archived";
+  hidden?: boolean;
+  customDetails?: ProjectCustomDetails;
+}
+
+export interface ProjectCustomDetails {
+  images?: string[];
+  videos?: string[];
+  vimeoVideoId?: string;
+  vimeoVideoIds?: string[];
+  behanceUrl?: string;
+  figmaUrl?: string;
+  figmaDeckUrl?: string;
+  additionalLinks?: {
+    title: string;
+    url: string;
+    description?: string;
+  }[];
+  highlights?: string[];
+  customSections?: {
+    title: string;
+    content: string;
+  }[];
 }
 
 export interface PortfolioProject extends GitHubRepo {

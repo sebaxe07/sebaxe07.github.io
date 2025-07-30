@@ -19,41 +19,41 @@
 
 /* Custom animations */
 @keyframes blob {
-  0% {
+  0%,
+  100% {
     transform: translate(0px, 0px) scale(1);
-    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
   }
   33% {
     transform: translate(30px, -50px) scale(1.1);
-    border-radius: 70% 30% 50% 50% / 30% 60% 40% 70%;
   }
   66% {
     transform: translate(-20px, 20px) scale(0.9);
-    border-radius: 50% 50% 30% 70% / 50% 40% 60% 30%;
-  }
-  100% {
-    transform: translate(0px, 0px) scale(1);
-    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
   }
 }
 
 @keyframes float {
   0%,
   100% {
-    transform: translatey(0px);
+    transform: translateY(0px);
   }
   50% {
-    transform: translatey(-20px);
+    transform: translateY(-20px);
   }
 }
 
 @keyframes glow {
   from {
-    box-shadow: 0 0 20px -10px #3b82f6;
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
   }
   to {
-    box-shadow: 0 0 40px -10px #8b5cf6;
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.8),
+      0 0 40px rgba(59, 130, 246, 0.3);
   }
+}
+
+/* Hide navigation when modal is open */
+.modal-open nav {
+  display: none !important;
 }
 
 /* Utility classes */

@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { PortfolioProject } from "@/types/github";
 import { GitHubService } from "@/lib/github";
 import { ProjectCard } from "./ProjectCard";
+import { ProjectDetailModal } from "./ProjectDetailModal";
 import { GlassCard } from "./ui/GlassCard";
 
 export const ProjectsSection: React.FC = () => {
@@ -11,8 +12,28 @@ export const ProjectsSection: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [filter, setFilter] = useState<
-    "all" | "featured" | "web" | "mobile" | "desktop" | "robotics" | "unity" | "other"
+    | "all"
+    | "featured"
+    | "web"
+    | "mobile"
+    | "desktop"
+    | "robotics"
+    | "unity"
+    | "other"
   >("all");
+  const [selectedProject, setSelectedProject] =
+    useState<PortfolioProject | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleProjectClick = (project: PortfolioProject) => {
+    setSelectedProject(project);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedProject(null);
+  };
 
   useEffect(() => {
     const fetchProjects = async () => {
@@ -140,10 +161,21 @@ export const ProjectsSection: React.FC = () => {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredProjects.map((project) => (
-              <ProjectCard key={project.id} project={project} />
+              <ProjectCard
+                key={project.id}
+                project={project}
+                onProjectClick={handleProjectClick}
+              />
             ))}
           </div>
         )}
+
+        {/* Project Detail Modal */}
+        <ProjectDetailModal
+          project={selectedProject}
+          isOpen={isModalOpen}
+          onClose={handleCloseModal}
+        />
 
         {/* GitHub link */}
         <div className="text-center mt-12">
